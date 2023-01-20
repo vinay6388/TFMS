@@ -7,3 +7,8 @@ Press 5: Update Duration
 2023-01-19 23:37:20 INFO  TopicBatchDaoImpl:141 - enter the trinee ID
 2023-01-19 23:37:59 INFO  TopicBatchDaoImpl:144 - Enter new EndDate:
 2023-01-19 23:38:26 INFO  TopicBatchDaoImpl:150 - Updated
+2023-01-20 12:26:41 INFO  TopicBatchDaoImpl:65 - enter the trinee ID
+2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:71 - Deleted successfully
+2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:73 - do you want to continue
+2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:74 - press 1: continue
+2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:75 - else press: 2

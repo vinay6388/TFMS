@@ -15,6 +15,7 @@ import com.tfms.dao.TopicBatchDao;
 import com.tfms.model.Topic;
 import com.tfms.util.Constants;
 import com.tfms.util.DatabaseConnection;
+import com.tfms.util.MenuCard;
 
 public class TopicBatchDaoImpl implements TopicBatchDao {
 
@@ -22,6 +23,7 @@ private static final Logger logger = Logger.getLogger(TopicBatchDaoImpl.class);
 	static Connection con = DatabaseConnection.getConnection();
 	Scanner scInt = new Scanner(System.in);
 	Scanner scString = new Scanner(System.in);
+	MenuCard m=new MenuCard();
 
 	@Override
 	public void addBatch(Topic topic) throws SQLException {
@@ -36,6 +38,18 @@ private static final Logger logger = Logger.getLogger(TopicBatchDaoImpl.class);
 		ps.setString(5, topic.getTrainingEndDate());
 		ps.setString(6, topic.getTrainingDuration());
 		ps.executeUpdate();
+		logger.info("do you want to continue");
+		logger.info("press 1: continue");
+		logger.info("else press: 2");
+		int i =scInt.nextInt();
+		switch(i) {
+		case 1:
+			m.menu();
+			break;
+		case 2:
+			logger.info("thank you");
+			
+		}
 
 	}
 
@@ -55,6 +69,18 @@ private static final Logger logger = Logger.getLogger(TopicBatchDaoImpl.class);
 					+ rs.getString(4) + " , " + rs.getString(5) + " , " + rs.getString(6));
 
 		}
+		logger.info("do you want to continue");
+		logger.info("press 1: continue");
+		logger.info("else press: 2");
+		int i =scInt.nextInt();
+		switch(i) {
+		case 1:
+			m.menu();
+			break;
+		case 2:
+			logger.info("thank you");
+			
+		}
 
 	}
 
@@ -67,6 +93,18 @@ private static final Logger logger = Logger.getLogger(TopicBatchDaoImpl.class);
 		int k = ps1.executeUpdate();
 		if (k > 0) {
 			logger.info("Deleted successfully");
+		}
+		logger.info("do you want to continue");
+		logger.info("press 1: continue");
+		logger.info("else press: 2");
+		int i =scInt.nextInt();
+		switch(i) {
+		case 1:
+			m.menu();
+			break;
+		case 2:
+			logger.info("thank you");
+			
 		}
 
 	}
@@ -173,6 +211,18 @@ private static final Logger logger = Logger.getLogger(TopicBatchDaoImpl.class);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
+		}
+		logger.info("do you want to continue");
+		logger.info("press 1: continue");
+		logger.info("else press: 2");
+		int i =scInt.nextInt();
+		switch(i) {
+		case 1:
+			m.menu();
+			break;
+		case 2:
+			logger.info("thank you");
+			
 		}
 
 	}
