@@ -12,3 +12,23 @@ Press 5: Update Duration
 2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:73 - do you want to continue
 2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:74 - press 1: continue
 2023-01-20 12:26:53 INFO  TopicBatchDaoImpl:75 - else press: 2
+2023-01-20 12:31:32 INFO  TopicBatchDaoImpl:72 - do you want to continue
+2023-01-20 12:31:32 INFO  TopicBatchDaoImpl:73 - press 1: continue
+2023-01-20 12:31:32 INFO  TopicBatchDaoImpl:74 - else press: 2
+2023-01-20 12:32:38 INFO  TopicBatchDaoImpl:41 - do you want to continue
+2023-01-20 12:32:38 INFO  TopicBatchDaoImpl:42 - press 1: continue
+2023-01-20 12:32:38 INFO  TopicBatchDaoImpl:43 - else press: 2
+2023-01-20 12:33:01 INFO  TopicBatchDaoImpl:72 - do you want to continue
+2023-01-20 12:33:01 INFO  TopicBatchDaoImpl:73 - press 1: continue
+2023-01-20 12:33:01 INFO  TopicBatchDaoImpl:74 - else press: 2
+2023-01-20 16:02:12 INFO  TopicBatchDaoImpl:72 - do you want to continue
+2023-01-20 16:02:12 INFO  TopicBatchDaoImpl:73 - press 1: continue
+2023-01-20 16:02:12 INFO  TopicBatchDaoImpl:74 - else press: 2
+2023-01-20 16:02:34 INFO  TopicBatchDaoImpl:89 - enter the trinee ID
+2023-01-20 16:02:39 INFO  TopicBatchDaoImpl:95 - Deleted successfully
+2023-01-20 16:02:39 INFO  TopicBatchDaoImpl:97 - do you want to continue
+2023-01-20 16:02:39 INFO  TopicBatchDaoImpl:98 - press 1: continue
+2023-01-20 16:02:39 INFO  TopicBatchDaoImpl:99 - else press: 2
+2023-01-20 16:02:45 INFO  TopicBatchDaoImpl:72 - do you want to continue
+2023-01-20 16:02:45 INFO  TopicBatchDaoImpl:73 - press 1: continue
+2023-01-20 16:02:45 INFO  TopicBatchDaoImpl:74 - else press: 2
