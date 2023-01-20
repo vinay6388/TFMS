@@ -6,4 +6,5 @@
  *
  */
 module TFMS {
+	requires java.sql;
 }

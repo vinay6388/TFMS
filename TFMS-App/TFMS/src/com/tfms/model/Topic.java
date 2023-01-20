@@ -4,19 +4,19 @@ public class Topic {
 	
 	private String topicName;
 	private String trainerId;
-	private String traineeId ;
+	private int traineeId ;
 	private String trainingStartDate;
 	private String trainingDuration;
 	private String trainingEndDate;
 	
-	
+	 
 	public Topic() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	
 	
-	public Topic(String topicName, String trainerId, String traineeId, String trainingStartDate,
+	public Topic(String topicName, String trainerId, int traineeId, String trainingStartDate,
 			String trainingDuration, String trainingEndDate) {
 		super();
 		this.topicName = topicName;
@@ -40,12 +40,23 @@ public class Topic {
 	public void setTrainerId(String trainerId) {
 		this.trainerId = trainerId;
 	}
-	public String getTraineeId() {
+	
+    public int getTraineeId() {
 		return traineeId;
 	}
-	public void setTraineeId(String traineeId) {
+
+
+	public void setTraineeId(int traineeId) {
 		this.traineeId = traineeId;
 	}
+
+
+	//	public String getTraineeId() {
+//		return traineeId;
+//	}
+//	public void setTraineeId(String traineeId) {
+//		this.traineeId = traineeId;
+//	}
 	public String getTrainingStartDate() {
 		return trainingStartDate;
 	}
